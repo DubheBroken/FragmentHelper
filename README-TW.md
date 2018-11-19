@@ -1,5 +1,5 @@
 # FragmentHelper
-[Android]一個fragment的管理工具類，支持在各種位置進行切換fragment操作
+[Android]一個fragment的管理工具類，支持在各種位置進行切換fragment操作  
 源碼已包含Demo
 ### 讀我文檔
 [English](/README-EN.md)    [简体中文](/README.md)
