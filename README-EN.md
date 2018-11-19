@@ -2,7 +2,7 @@
 [Android] A fragment management tool class that supports switching fragment operations in various locations.
 The source code contains Dome.
 ### readme doc
-[简体中文](.\README.md)
+[简体中文](/README.md)
 ### How to use
 Download the ```FrgmentHelper.java``` file from the source directory and place it in your project's Java src directory.
 #### Layout
