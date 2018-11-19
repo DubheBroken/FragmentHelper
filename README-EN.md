@@ -1,6 +1,6 @@
 # FragmentHelper
 [Android] A fragment management tool class that supports switching fragment operations in various locations.
-The source code contains Dome.
+The source code contains Demo.
 ### readme doc
 [简体中文](/README.md) [繁体中文](/README-TW.md)
 ### How to use
