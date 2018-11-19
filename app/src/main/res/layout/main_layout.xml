@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical">
+
+	<android.support.v7.widget.Toolbar
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/colorPrimary"
+		>
+		
+		<TextView
+			android:id="@+id/back_header_certi"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="start|center_vertical"
+			android:layout_marginStart="16dp"
+			android:background="@drawable/fanhui"/>
+		
+		<TextView
+			android:id="@+id/toolbar_title_certi"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginBottom="16dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="16dp"
+			android:singleLine="true"
+			android:tag="toolbar_title"
+			android:text="FragmentHelperDome"
+			android:textColor="@color/white"
+			android:textSize="18sp"/>
+		
+	</android.support.v7.widget.Toolbar>
+	
+	<FrameLayout
+		android:id="@+id/frame_main"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		>
+		<fragment
+			class="com.dubhe.broken.fragmenthelper.fragment.Fragment1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
+	</FrameLayout>
+	
+</LinearLayout>
